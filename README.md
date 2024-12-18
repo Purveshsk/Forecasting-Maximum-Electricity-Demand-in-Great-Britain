@@ -58,24 +58,25 @@ The SARIMA model effectively forecasted electricity demand with a MAPE of 3.5%, 
 ________________________________________
 
 **Technologies Used**
+
 •	Python: Core programming language
     
-    •	Pandas: Data preprocessing
+•	Pandas: Data preprocessing
     
-    •	NumPy: Numerical operations
+•	NumPy: Numerical operations
     
-    •	Matplotlib & Seaborn: Data visualization
-    
-    •	Statsmodels: Time series analysis and modeling
-    
-    •	Pymannkendall: Trend analysis
+•	Matplotlib & Seaborn: Data visualization
+        
+•	Statsmodels: Time series analysis and modeling
+        
+•	Pymannkendall: Trend analysis
 ________________________________________
 
 **Future Work**
 
 •	Incorporating external features like temperature, day type (weekend/weekday), or holidays for improved accuracy.
-    
-    •	Exploring advanced models such as Prophet or LSTM for forecasting.
+        
+•	Exploring advanced models such as Prophet or LSTM for forecasting.
 
 ________________________________________
     
