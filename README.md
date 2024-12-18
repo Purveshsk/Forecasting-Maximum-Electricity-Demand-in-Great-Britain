@@ -58,7 +58,6 @@ The SARIMA model effectively forecasted electricity demand with a MAPE of 3.5%, 
 ________________________________________
 
 **Technologies Used**
-
     •	Python: Core programming language
     
     •	Pandas: Data preprocessing
@@ -80,7 +79,7 @@ ________________________________________
     
 **Conclusion**
 
-    This project demonstrates a comprehensive approach to time series forecasting, from EDA to building robust SARIMA models. The achieved MAPE of 3.5% reflects the accuracy and reliability of the model in predicting electricity demand.
+This project demonstrates a comprehensive approach to time series forecasting, from EDA to building robust SARIMA models. The achieved MAPE of 3.5% reflects the accuracy and reliability of the model in predicting electricity demand.
     
 **Contact**
 
