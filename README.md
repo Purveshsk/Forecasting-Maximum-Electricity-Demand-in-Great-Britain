@@ -1,10 +1,11 @@
 # Forecasting-Maximum-Electricity-Demand-in-Great-Britain
 **Project Overview**
-      
-      This project focuses on analyzing and forecasting electricity demand in Great Britain using time series data provided by National Grid ESO. It can be accessed from: Kaggle (https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022/data). The dataset includes electricity consumption records from 2009 onward, updated 48 times per day (every 30 minutes). The data was aggregated to daily frequency by taking the maximum consumption value per day.
-      The primary goal was to forecast maximum consumption in a day. This was done by performing exploratory data analysis (EDA), assessing stationarity, and by developing accurate time series models for forecasting electricity demand.
+
+This project focuses on analyzing and forecasting electricity demand in Great Britain using time series data provided by National Grid ESO. It can be accessed from: Kaggle (https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022/data). The dataset includes electricity consumption records from 2009 onward, updated 48 times per day (every 30 minutes). The data was aggregated to daily frequency by taking the maximum consumption value per day.
+The primary goal was to forecast maximum consumption in a day. This was done by performing exploratory data analysis (EDA), assessing stationarity, and by developing accurate time series models for forecasting electricity demand.
 
 ________________________________________
+
 **Dataset**
 
 •	Source: National Grid ESO
@@ -17,6 +18,7 @@ ________________________________________
     o	Aggregated data to daily frequency (maximum consumption per day)
     o	Interpolated missing data points
 ________________________________________
+
 **Project Workflow**
 1. Exploratory Data Analysis (EDA)
    
@@ -24,7 +26,7 @@ ________________________________________
    
     •	Interpolated missing data points for consistency.
    
-3. Statistical Analysis
+2. Statistical Analysis
    
     •	Classical Decomposition: Decomposed time series into trend, seasonality, and residual components.
    
@@ -32,16 +34,16 @@ ________________________________________
    
     •	Kruskal-Wallis Test: Tested for seasonality in the data.
    
-5. Stationarity Analysis
+3. Stationarity Analysis
    
     •	ADF Test (Augmented Dickey-Fuller): Checked for stationarity.
    
     •	KPSS Test: Confirmed stationarity results.
    
     •	ACF and PACF Plots: Analyzed autocorrelations to identify seasonality and lag patterns.
-7. Time Series Forecasting
-
-  •	Built and compared the following models:
+   
+4. Time Series Forecasting
+   • Built and compared the following models:
         o	ARIMA: Autoregressive Integrated Moving Average
         o	SARIMA: Seasonal ARIMA
       
@@ -54,6 +56,7 @@ ________________________________________
 
 The SARIMA model effectively forecasted electricity demand with a MAPE of 3.5%, showcasing its ability to capture both seasonal and non-seasonal patterns.
 ________________________________________
+
 **Technologies Used**
 
     •	Python: Core programming language
@@ -68,6 +71,7 @@ ________________________________________
     
     •	Pymannkendall: Trend analysis
 ________________________________________
+
 **Future Work**
 
     •	Incorporating external features like temperature, day type (weekend/weekday), or holidays for improved accuracy.
