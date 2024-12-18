@@ -3,6 +3,7 @@
       
       This project focuses on analyzing and forecasting electricity demand in Great Britain using time series data provided by National Grid ESO. It can be accessed from: Kaggle (https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022/data). The dataset includes electricity consumption records from 2009 onward, updated 48 times per day (every 30 minutes). The data was aggregated to daily frequency by taking the maximum consumption value per day.
 The primary goal was to forecast maximum consumption in a day. This was done by performing exploratory data analysis (EDA), assessing stationarity, and by developing accurate time series models for forecasting electricity demand.
+
 ________________________________________
 **Dataset**
 
@@ -15,17 +16,21 @@ ________________________________________
 ________________________________________
 **Project Workflow**
 1. Exploratory Data Analysis (EDA)
+   
     •	Analyzed trends, seasonality, and outliers in the time series data.
     •	Interpolated missing data points for consistency.
-2. Statistical Analysis
+   
+3. Statistical Analysis
+   
     •	Classical Decomposition: Decomposed time series into trend, seasonality, and residual components.
     •	Pymannkendall Test: Checked for monotonic trends in the data.
     •	Kruskal-Wallis Test: Tested for seasonality in the data.
-3. Stationarity Analysis
+   
+5. Stationarity Analysis
     •	ADF Test (Augmented Dickey-Fuller): Checked for stationarity.
     •	KPSS Test: Confirmed stationarity results.
     •	ACF and PACF Plots: Analyzed autocorrelations to identify seasonality and lag patterns.
-4. Time Series Forecasting
+6. Time Series Forecasting
     •	Built and compared the following models:
         o	ARIMA: Autoregressive Integrated Moving Average
         o	SARIMA: Seasonal ARIMA
