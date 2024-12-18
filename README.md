@@ -88,6 +88,6 @@ ________________________________________
     
 **Contact**
 
-For any doubts, feel free to reach out. 
+For any doubts, feel free to reach out: linkdIn: https://www.linkedin.com/in/purvesh-khalatkar/ 
 
 
