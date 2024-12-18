@@ -1,9 +1,11 @@
 # Forecasting-Maximum-Electricity-Demand-in-Great-Britain
 **Project Overview**
+      
       This project focuses on analyzing and forecasting electricity demand in Great Britain using time series data provided by National Grid ESO. It can be accessed from: Kaggle (https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022/data). The dataset includes electricity consumption records from 2009 onward, updated 48 times per day (every 30 minutes). The data was aggregated to daily frequency by taking the maximum consumption value per day.
 The primary goal was to forecast maximum consumption in a day. This was done by performing exploratory data analysis (EDA), assessing stationarity, and by developing accurate time series models for forecasting electricity demand.
 ________________________________________
 **Dataset**
+
 •	Source: National Grid ESO
 •	Frequency: Half-hourly (converted to daily)
 •	Time Range: From 2009 to 2024
@@ -45,8 +47,10 @@ ________________________________________
 **Future Work**
     •	Incorporating external features like temperature, day type (weekend/weekday), or holidays for improved accuracy.
     •	Exploring advanced models such as Prophet or LSTM for forecasting.
+    
 **Conclusion**
     This project demonstrates a comprehensive approach to time series forecasting, from EDA to building robust SARIMA models. The achieved MAPE of 3.5% reflects the accuracy and reliability of the model in predicting electricity demand.
+    
 **Contact**
 For any doubts, feel free to reach out. 
 
