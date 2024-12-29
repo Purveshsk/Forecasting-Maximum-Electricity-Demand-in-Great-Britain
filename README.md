@@ -16,9 +16,9 @@ ________________________________________
 
 •	Data Preprocessing:
     
-    o	Aggregated data to daily frequency (maximum consumption per day)
+    Aggregated data to daily frequency (maximum consumption per day)
     
-    o	Interpolated missing data points
+    Interpolated missing data points
 ________________________________________
 
 **Project Workflow**
