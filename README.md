@@ -21,12 +21,12 @@ ________________________________________
 
 **Project Workflow**
 1. Exploratory Data Analysis (EDA)
+
+   •	Analyzed trends, seasonality, and outliers in the time series data.
+
+   •	Interpolated missing data points for consistency.
    
-    •	Analyzed trends, seasonality, and outliers in the time series data.
-   
-    •	Interpolated missing data points for consistency.
-   
-2. Statistical Analysis
+3. Statistical Analysis
    
     •	Classical Decomposition: Decomposed time series into trend, seasonality, and residual components.
    
@@ -34,7 +34,7 @@ ________________________________________
    
     •	Kruskal-Wallis Test: Tested for seasonality in the data.
    
-3. Stationarity Analysis
+4. Stationarity Analysis
    
     •	ADF Test (Augmented Dickey-Fuller): Checked for stationarity.
    
@@ -42,7 +42,7 @@ ________________________________________
    
     •	ACF and PACF Plots: Analyzed autocorrelations to identify seasonality and lag patterns.
    
-4. Time Series Forecasting
+5. Time Series Forecasting
    • Built and compared the following models:
         o	ARIMA: Autoregressive Integrated Moving Average
         o	SARIMA: Seasonal ARIMA
